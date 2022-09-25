@@ -1,0 +1,102 @@
+body {
+	background-color: #f1ac88ff;
+}
+.sidenav {
+	height: 100%;
+	width: 12rem;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #fc766aff;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+.sidenav ul{
+    list-style-type:none;
+}
+.sidenav a{
+    font-size: large;
+    padding: 0;
+}
+.main {
+	padding-top: 10rem;
+    width: 60rem;
+	height: 100%;
+	color: #783937ff;
+	margin-left: 12rem; /* Same as the width of the sidenav */
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+}
+.content {
+	margin-top: 3rem;
+}
+.post{
+    padding-top:.5rem;
+}
+.post p{
+	margin: .3rem;
+}
+.header {
+	margin-left: 2rem;
+	width: fit-content;
+}
+.navItem {
+	padding-left: 1rem;
+}
+
+.date{  
+	margin: 0;
+	font-size: 1rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+}
+/* text */
+p {
+	font-size: 1.2rem;
+}
+h1 {
+    font-family: 'Mullish', sans-serif;}
+h4{
+	font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.7rem;
+}
+/* link */
+.link {
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+	color: black;
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+
+a:active {
+	text-decoration: none;
+	color: black;
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+/* utilities */
+.center {
+	display: flex;
+	justify-content: center;
+}
+.spaceAround {
+	justify-content: space-around;
+}
